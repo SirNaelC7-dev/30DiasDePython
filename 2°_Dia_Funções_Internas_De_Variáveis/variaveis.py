@@ -57,7 +57,8 @@ area_do_circulo = 3.14 * (raio**2)
 circunferencia = 2 * 3.14 * raio
 
 first_name = input('Digite seu primeiro nome:')
-middle_name = input('Digite seu nome do meio')
-
+middle_name = input('Digite seu nome do meio:')
+country = input('Informe seu país de origem:')
+age = int(input('Informe sua idade:'))
 
 
