@@ -2,7 +2,7 @@
 
 #Exercícios
 
-"""idade = int(20)
+idade = int(20)
 altura = float(1.80)
 numero_complexo = 1+1j
 
@@ -65,14 +65,14 @@ pagamento = horas_trabalhadas * valor_hora
 
 anos_de_vida = int(input('Quantos anos você se dá de expectativa de vida?'))
 segundos = anos_de_vida * 31536000
-print(segundos)"""
+print(segundos)
 
-list= ['\n',
-    1, 1, 1, 1, 1,'\n',
-    2, 1, 2, 4, 8,'\n',
-    3, 1, 3, 9, 27,'\n',
-    4, 1, 4, 16, 64,'\n',
-    5, 1, 5, 25, 125,'\n',
-]
+list= [
+    1, 1, 1, 1, 1,
+    2, 1, 2, 4, 8,
+    3, 1, 3, 9, 27,
+    4, 1, 4, 16, 64,
+    5, 1, 5, 25, 125,
+    ]
 
 print(list)
