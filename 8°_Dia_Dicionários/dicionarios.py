@@ -1,7 +1,7 @@
-"""dog = {}
+dog = {}
 
 dog['nome', 'cor', 'raca','idade' ] = ['cachorro', 'marrom-caramelo', 'vira-copo', 37]
-"""
+
 estudante = {
     'primeiro_nome' : 'Dobby',
     'ultimo_nome' : 'Potter',
@@ -15,25 +15,18 @@ estudante = {
     }
 }
 
-#print(len(estudante))
+print(len(estudante))
 
-#print('habilidades :',estudante['habilidades'], 'tipo de dado das habilidades :',len(estudante['habilidades']))
+print('habilidades :',estudante['habilidades'], 'tipo de dado das habilidades :',len(estudante['habilidades']))
 
-#estudante['habilidades'].append('cuidador')
+estudante['habilidades'].append('cuidador')
 
-#lista_chaves = estudante.keys()
+lista_chaves = estudante.keys()
 
-#lista_valores = estudante.values()
+lista_valores = estudante.values()
 
 dct_lista = estudante.items()
 
-print(type(dct_lista))
+del estudante['sexo']
 
-
-
-
-
-
-
-
-
+del dog
