@@ -1,4 +1,4 @@
-"""idade = int(input('Digite sua idade: '))
+idade = int(input('Digite sua idade: '))
 
 if idade >= 18:
     print('Você tem idade suficiente para dirigir!')
@@ -70,7 +70,6 @@ if fruta not in frutas:
     frutas.append(fruta)
 else:
     print('A fruta já está presente na lista!')
-"""
 
 person={
     'first_name': 'Asabeneh',
@@ -85,7 +84,7 @@ person={
     }
 }
 
-"""verificacao = 'skills' in person
+verificacao = 'skills' in person
 
 if verificacao:
     tamanho = len(person[('skills')])//2
@@ -112,11 +111,8 @@ elif full_stack == person['skills']:
     print('Ele é um desenvolvedor FullStack')
 
 else:
-    print('Nenhum título encontrado')"""
+    print('Nenhum título encontrado')
 
 if person['is_marred'] and person['country']=='Finland':
     print('{} {} lives in {}. He is married'.format(person['first_name'], person['last_name'], person['country']))
-
-
-
 
