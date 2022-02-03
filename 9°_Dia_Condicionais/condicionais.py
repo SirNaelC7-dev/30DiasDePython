@@ -116,3 +116,4 @@ else:
 if person['is_marred'] and person['country']=='Finland':
     print('{} {} lives in {}. He is married'.format(person['first_name'], person['last_name'], person['country']))
 
+
