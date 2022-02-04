@@ -1,4 +1,4 @@
-"""for i in range(0, 10):
+for i in range(0, 10):
     print(i)
 
 i = 0
@@ -53,7 +53,7 @@ for i in range(0, 101):
         soma_pares+=i
 
 print('A soma de todos os pares é {}'.format(soma_pares))
-"""
+
 paises = [
     'Afghanistan', 'Albania', 'Algeria', 'Andorra', 'Angola', 'Antigua and Barbuda', 
     'Argentina', 'Armenia', 'Australia', 'Austria', 'Azerbaijan', 'Bahamas', 'Bahrain', 
@@ -91,8 +91,6 @@ for pais in paises:
     else:
         continue
 
-print(paises_land)
-"""
 frutas = ['banana', 'orange', 'mango', 'lemon']
 frutas_revertidas = []
 
@@ -100,4 +98,3 @@ for i in range(len(frutas)-1, -1, -1):
     frutas_revertidas.append(frutas[i])
 
 print(frutas_revertidas)
-"""
