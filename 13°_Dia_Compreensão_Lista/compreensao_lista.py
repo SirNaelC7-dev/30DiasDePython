@@ -1,4 +1,4 @@
-"""numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
 negativo_zero = [i for i in numbers if i <= 0]
 
 
@@ -14,8 +14,6 @@ lista = [list(tupla) for tupla in paises for tupla in tupla]
 
 paises = [[('Finland', 'Helsinki')], [('Sweden', 'Stockholm')], [('Norway', 'Oslo')]]
 lista = [dict(pais_cidade) for pais_cidade in paises for pais_cidade in paises]
-"""
 
 nomes = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
 concatenado = [nome for nome in nomes for nome in nome for nome in nome]
-print(concatenado)
