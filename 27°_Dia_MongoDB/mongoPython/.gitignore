@@ -1,0 +1,7 @@
+# Virtualenv
+.Python
+[Bb]in
+[Ll]ib
+pyvenv.cfg
+.mongoPython
+__pycache__
