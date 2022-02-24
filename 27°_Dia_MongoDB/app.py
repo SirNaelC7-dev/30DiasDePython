@@ -2,7 +2,7 @@ from flask import Flask
 import pymongo
 import os # importing operating system module
 
-MONGODB_URI = 'mongodb+srv://sirnaelc7:98318698nff23@30daysofpython.f8p8y.mongodb.net/30DaysOfPython?retryWrites=true&w=majority'
+MONGODB_URI = 'mongodb+srv://sirnaelc7:<password>@30daysofpython.f8p8y.mongodb.net/30DaysOfPython?retryWrites=true&w=majority'
 client = pymongo.MongoClient(MONGODB_URI)
 db = client.thirty_days_of_python
 
